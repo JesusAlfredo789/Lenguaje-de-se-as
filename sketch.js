@@ -15,7 +15,7 @@ function setup() {
   //Crear el vídeo
   video = createCapture(VIDEO);
   //Asigna el tamaño del vídeo
-  video.size(640, 240);
+  video.size(640, 480);
   //Esconde el vídeo duplicado
   video.hide();
   //Llama a la función "classifyVideo"
